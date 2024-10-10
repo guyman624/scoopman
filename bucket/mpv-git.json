@@ -18,6 +18,10 @@
         "32bit": {
             "url": "https://downloads.sourceforge.net/project/mpv-player-windows/32bit/mpv-i686-20241006-git-9791c6d.7z",
             "hash": "sha1:03b20837c5fbab49de6e42be2148a7c0edf6fa04"
+        },
+        "arm64": {
+            "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20241006/mpv-aarch64-20241006-git-9791c6d.7z",
+            "hash": "sha1:05E5F224C517EA8733975DCC3D79324900B6A313"
         }
     },
     "pre_install": "Remove-Item \"$dir\\updater.bat\"",
@@ -40,6 +44,9 @@
             },
             "32bit": {
                 "url": "https://downloads.sourceforge.net/project/mpv-player-windows/32bit/mpv-i686-$version-git-$matchCommit.7z"
+            },
+            "arm64": {
+                "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/$version/mpv-aarch64-$version-git-$matchCommit.7z"
             }
         }
     }
