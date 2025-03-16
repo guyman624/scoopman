@@ -1,5 +1,5 @@
 {
-    "version": "20250309",
+    "version": "20250316",
     "description": "Video player based on MPlayer/mplayer2 (builds by shinchiro)",
     "homepage": "https://mpv.io",
     "license": "LGPL-2.1-or-later,GPL-2.0-or-later",
@@ -12,16 +12,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/64bit/mpv-x86_64-20250309-git-edf4fdf.7z",
-            "hash": "sha1:e79fceb5213b324f6c5afa201fd788b6b32b121e"
+            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/64bit/mpv-x86_64-20250316-git-6c42182.7z",
+            "hash": "sha1:bdb5e3d8c676a33da57ea52c852d0efcd60f29bc"
         },
         "32bit": {
-            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/32bit/mpv-i686-20250309-git-edf4fdf.7z",
-            "hash": "sha1:3ff90694af3746949fd16068b3b4279c0603d623"
+            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/32bit/mpv-i686-20250316-git-6c42182.7z",
+            "hash": "sha1:5d356e87c04a64a0637fac691eed33336a74442c"
         },
         "arm64": {
-            "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20250309/mpv-aarch64-20250309-git-edf4fdf.7z",
-            "hash": "c01e8cfe1d12308548c2fe8513e928ff6738b1f98c3d38ba5546f9014d7bfa37"
+            "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20250316/mpv-aarch64-20250316-git-6c42182.7z",
+            "hash": "0964be47752b3d15bb8a3618c983d75e7793df1ccc6e328bfcc3fd91dcaf8730"
         }
     },
     "pre_install": "Remove-Item \"$dir\\updater.bat\"",
